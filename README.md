@@ -11,7 +11,7 @@ sync.json为配置文件：
 #### 安装
 
 ```sh
-npm install -g rsyncer
+npm install -g https://github.com/andy12530/nsyncer
 ```
 
 ### 使用
