@@ -1,0 +1,11 @@
+{
+    "paths": [{
+        "src": "./app/",
+        "dst": "cq01-rdqa-dev071.cq01::test1_app"
+    }],
+    "recursive": true,
+    "cvsExclude": true,
+    "args": [
+        "--port='8801' -q"
+    ]
+}
