@@ -1,0 +1,24 @@
+{
+    "paths" : [
+        {
+            "src" : "/home/zivester/code/",
+            "dst" : "zivester@remote:/home/zivester/code/"
+        },
+        {
+            "src" : "/home/zivester/music/",
+            "dst" : "/tmp/music/",
+            "args" : [
+                "-t"
+            ]
+        },
+        {
+            "src" : "/tmp/will-not-be-synced",
+            "dst" : "/tmp/because-of-disabled-flag",
+            "disabled" : true
+        }
+    ],
+    "recursive" : true,
+    "args" : [
+       "--rsh='ssh'"
+    ]
+}
