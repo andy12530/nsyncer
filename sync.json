@@ -2,6 +2,9 @@
     "paths": [{
         "src": "./app/",
         "dst": "cq01-rdqa-dev071.cq01::test1_app"
+    }, {
+        "src": "/cygdrive/d/rsync", //on windows
+        "dst": "cq01-rdqa-dev071.cq01::test1_app"
     }],
     "recursive": true,
     "cvsExclude": true,
