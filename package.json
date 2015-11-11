@@ -1,5 +1,5 @@
 {
-  "name": "rsyncer",
+  "name": "rsyncerbd",
   "version": "0.0.7",
   "description": "Continuous rsync runner.",
   "main": "index.js",

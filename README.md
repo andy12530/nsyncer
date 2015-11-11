@@ -11,7 +11,7 @@ sync.json为配置文件：
 #### 安装
 
 ```sh
-npm install -g https://github.com/andy12530/nsyncer
+cnpm install -g https://github.com/andy12530/nsyncer
 ```
 
 ### 使用
@@ -25,19 +25,6 @@ nsyncer start sync.json
 
 A continuous `rsync` runner to keep local and remote directories in sync.  It watches the source directory tree for any changes, and immediately invokes the specified rsync command.
 
-## install
-
-```sh
-$ npm install -g rsyncer
-```
-
-## usage
-
-`rsyncer` comes with an executable `nsyncer(1)` that you will use to sync and/or watch your directories/files
-
-```sh
-$ nsyncer start ./config.json
-```
 
 ## api
 
